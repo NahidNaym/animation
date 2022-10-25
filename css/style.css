@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    border-radius: 50%; 
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.div1 {
+    left: 0px;
+    top: 0px;
+    background-color: rgb(241, 69, 69);
+    animation-name: move1;
+    animation-duration: 3s;
+    animation-delay: 0s;
+}
+@keyframes move1 {
+    0% {top:10px; left: 0px;}
+    50% {top: 500px;left: 600px; line-height: 100px;font-size: 50px; width: 100px;height: 100px;}
+    100% {top:0px;left: 1285px; background-color: rgb(8, 151, 85);}
+    }
+.div3 {
+    left: 0px;
+    top: 200px;
+    background-color: rgb(241, 69, 69);
+    animation-name: move3;
+    animation-duration: 3s;
+    animation-delay: 6s;
+}
+@keyframes move3 {
+    0% {top:200px;left: 0;}
+    50% {top: 500px;left: 600px;width: 100px;height: 100px; line-height: 100px;font-size: 50px;}
+    100% {top:200px;left: 1285px; background-color: rgb(8, 151, 85);}
+    }
+.div5 {
+    left: 0px;
+    top:400px;
+    background-color: rgb(241, 69, 69);
+    margin: 20px 0;
+    animation-name: move5;
+    animation-duration: 3s;
+    animation-delay: 12s;
+}
+@keyframes move5 {
+    0% {top:400px;
+        left: 0;}
+        50% {top: 300px;left: 600px;width: 100px;height: 100px; line-height: 100px;font-size: 50px;}
+        100% {top:400px;left: 1285px; background-color: rgb(8, 151, 85);}
+    }
+.div7 {
+    left: 0px;
+    top: 600px;
+    background-color: rgb(241, 69, 69);
+    margin: 20px 0;
+    animation-name: move7;
+    animation-duration: 3s;
+    animation-delay: 18s;
+}
+@keyframes move7 {
+    0% {top:600px;left: 0;}
+    50% {top: 500px;left: 600px;width: 100px;height: 100px; line-height: 100px;font-size: 50px;}
+    100% {top:600px;left: 1285px; background-color: rgb(8, 151, 85);}
+    }
+
+
+.div2 {
+    top: 100px;
+    left: 1285px;
+    background-color: rgb(8, 151, 85);
+    box-shadow: 12px green 2;
+    animation-delay: 3s;
+    animation-name: move2;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease;
+   }
+@keyframes move2 {
+    0% {top: 100px;left:  1285px;}
+    50% {top: 500px;left: 600px;width: 100px;height: 100px; line-height: 100px;font-size: 50px;}
+    100% {left: 0px; top: 100px;background-color: red;}
+}
+ .div4 {
+    top: 300px;
+    right: 0px;
+    background-color: rgb(8, 151, 85);
+    animation-delay:9s;
+    animation-name: move4;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease;
+    }
+@keyframes move4 {
+    0% {top: 300px;left: 1285px;}
+    50% {top: 500px;left: 600px;width: 100px;height: 100px; line-height: 100px;font-size: 50px;}
+    100% {left: 0px; top: 300px;background-color: red;}
+}
+.div6 {
+    top: 500px;
+    left:1285px;
+    background-color: rgb(8, 151, 85);
+    animation-delay: 15s;
+    animation-name: move6;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease;
+}
+@keyframes move6 {
+    0% {top: 500px;left:1285px;}
+    50% {top: 300px;left: 600px;width: 100px;height: 100px; line-height: 100px;font-size: 50px;}
+    100% {left: 0px;top: 500px;background-color: red;}
+}
+.div8 {
+    top: 700px;
+    left:1285px;
+    background-color: rgb(8, 151, 85);
+    animation-delay:21s ;
+    animation-name: move8;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease;
+}
+@keyframes move8 {
+    0% { top: 700px; left:  1285px;}
+    50% {top: 500px;left: 600px;width: 100px;height: 100px; line-height: 100px;font-size: 50px;}
+    100% {left: 0px;top: 700px;background-color: red;}
+} 
